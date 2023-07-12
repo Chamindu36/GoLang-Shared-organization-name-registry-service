@@ -1,0 +1,16 @@
+# +required Database connection configuration. See https://github.com/go-sql-driver/mysql#important-settings
+db:
+  username: root
+  password: Udakara@36
+  protocol: tcp
+  host: 127.0.0.1
+  port: 3306
+  name: choreo_org_reg
+  loc: UTC
+  allowNativePasswords: true
+  checkConnLiveness: true
+  tlsConfig: skip-verify
+  parseTime: true
+  additionalParams:
+    autocommit: 'true'
+    time_zone: "'+00:00'"

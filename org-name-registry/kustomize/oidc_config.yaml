@@ -1,0 +1,11 @@
+oidc:
+  issuer: https://id.preprod.choreo.dev/oauth2/token
+  clientId: orgnameregistryservicedev
+  clientSecret: AhGF87SPwphskFjgb6a6ASVY
+  tokenUrl: https://id.preprod.choreo.dev/oauth2/token
+  redirectUrl: http://localhost:8081/callback/
+  authorizationUrl: https://id.preprod.choreo.dev/oauth2/authorize
+  introspectUrl: https://id.preprod.choreo.dev/oauth2/introspect
+  admin:
+    username: choreo-dev-org-registry-admin-user
+    password: M8w3NhpJCmUF4A43ECdsfwn6

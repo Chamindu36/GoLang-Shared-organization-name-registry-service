@@ -1,0 +1,6 @@
+middleware:
+  logging:
+    dumpRequestBody: true
+    dumpRequestHeaders: true
+    dumpResponseBody: true
+    dumpResponseHeaders: true
